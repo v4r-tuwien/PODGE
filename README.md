@@ -88,7 +88,7 @@ To start the CNOS and ZS6D containers, use the following command:
 xhost local:docker
 docker compose -f docker_compose/cnos_zs6d.yml up
 ```
-**Note**: The weight download and setup of both CNOS and ZS6D has **not** been fully added to PODGE. Please read the documetnation of corresponding repositories for the full setup.
+**Note**: The weight download and setup of both CNOS and ZS6D has **not** been fully added to PODGE. Please refer to corresponding repositories' documentation for the full setup.
 
 
 ### Contact Graspnet
