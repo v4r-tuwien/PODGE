@@ -54,7 +54,7 @@ xhost local:docker
 DATASET=ycbv CONFIG=params_sasha.yaml docker compose -f docker_compose/gdrnpp_yolov8.yml up
 ```
 
-Change `DATASET` to your desired dataet (ycbv, ycb_ichores, fluidcontainer). If you want to test GDR-Net run:
+Change `DATASET` to your desired dataet (ycbv, ycb_ichores, tracebotcanister). If you want to test GDR-Net run:
 
 ```bash
 xhost local:docker
@@ -73,7 +73,7 @@ export DATASET=ycbv
 GDRNPP
 ```
 
-**Additional note**: Although this section refers to YOLOv8, the model used for fluid container detection was actually trained using YOLOv11.
+**Additional note**: Although this section refers to YOLOv8, the model used for the tracebot canister detection was actually trained using YOLOv11.
 
 ### Grounded SAM2
 To start the GSAM2 container, use the following command:
