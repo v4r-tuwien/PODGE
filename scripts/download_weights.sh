@@ -20,7 +20,7 @@ cp -r models $dataset_dir/ycbv/models
 rm -r gdrnpp_ycbv_models.zip models
 
 wget -O yolov8_ycbv.zip "https://owncloud.tuwien.ac.at/index.php/s/eh3qmWzuAsJiqr1/download"
-# unzip yolov8_ycbv.zip
+unzip yolov8_ycbv.zip
 cp -r train/weights/last.pt $weights_dir/yolov8/ycbv.pt
 rm -r train yolov8_ycbv.zip
 
