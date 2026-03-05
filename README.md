@@ -2,10 +2,6 @@
 
 This repository serves as a central hub for multiple grasp estimators, object detectors and pose estimators. It is heavily based on [DOPE](https://github.com/lexihaberl/DOPE.git).
 
-To-Do List:
-- Add CNOS downloads and docker integration
-- Add ZS6D downloads and docker integration
-
 ## Cloning the repository
 
 To clone this repository with all its submodules:
